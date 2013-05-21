@@ -9,7 +9,7 @@
     "express": "3.1.0",
     "ejs": "*",
     "express-partials": "git://github.com/publicclass/express-partials.git#c9b8adde89387dea",
-    "sequelize":"git://github.com/sequelize/sequelize.git",
-    "engines": {      "node": "0.8.x",      "npm": "1.1.x"}
-  }
+    "sequelize":"git://github.com/sequelize/sequelize.git"
+},
+    "engines": {      "node": "0.8.x",      "npm": "1.2.x"}
 }
