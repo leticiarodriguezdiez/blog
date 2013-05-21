@@ -3,26 +3,20 @@
 2 info using npm@1.1.71
 3 info using node@v0.8.20
 4 verbose read json /Users/leticiarodriguezdiez/blog/package.json
-5 verbose readDependencies using package.json deps
-6 verbose install where, deps [ '/Users/leticiarodriguezdiez/blog',
-6 verbose install   [ 'express', 'ejs', 'express-partials', 'sequelize', 'engines' ] ]
-7 error TypeError: Object #<Object> has no method 'replace'
-7 error     at data (/usr/local/lib/node_modules/npm/lib/install.js:136:41)
-7 error     at Array.map (native)
-7 error     at data (/usr/local/lib/node_modules/npm/lib/install.js:134:29)
-7 error     at /usr/local/lib/node_modules/npm/lib/install.js:222:16
-7 error     at fs.js:117:20
-7 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:53:5
-7 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:62:5
-7 error     at Object.oncomplete (fs.js:297:15)
-8 error If you need help, you may report this log at:
-8 error     <http://github.com/isaacs/npm/issues>
-8 error or email it to:
-8 error     <npm-@googlegroups.com>
+5 error install Couldn't read dependencies
+6 error Failed to parse json
+6 error Unexpected token }
+7 error File: /Users/leticiarodriguezdiez/blog/package.json
+8 error Failed to parse package.json data.
+8 error package.json must be actual JSON, not just JavaScript.
+8 error
+8 error This is not a bug in npm.
+8 error Tell the package author to fix their package.json file. JSON.parse
 9 error System Darwin 12.4.0
 10 error command "node" "/usr/local/bin/npm" "install"
 11 error cwd /Users/leticiarodriguezdiez/blog
 12 error node -v v0.8.20
 13 error npm -v 1.1.71
-14 error type undefined_method
-15 verbose exit [ 1, true ]
+14 error file /Users/leticiarodriguezdiez/blog/package.json
+15 error code EJSONPARSE
+16 verbose exit [ 1, true ]
