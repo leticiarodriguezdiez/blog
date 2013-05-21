@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'sequelize' ]
+2 info using npm@1.1.71
+3 info using node@v0.8.20
+4 verbose read json /Users/leticiarodriguezdiez/blog/package.json
+5 verbose read json /Users/leticiarodriguezdiez/blog/node_modules/counter.js/package.json
+6 verbose read json /Users/leticiarodriguezdiez/blog/node_modules/ejs/package.json
+7 verbose read json /Users/leticiarodriguezdiez/blog/node_modules/express/package.json
+8 verbose read json /Users/leticiarodriguezdiez/blog/node_modules/express-partials/package.json
+9 verbose from cache /Users/leticiarodriguezdiez/blog/package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'sequelize@git://github.com/sequelize/sequelize.git', null ]
+12 silly cache add name=undefined spec="sequelize@git://github.com/sequelize/sequelize.git" args=["sequelize@git://github.com/sequelize/sequelize.git",null]
+13 verbose parsed url { pathname: 'sequelize@git://github.com/sequelize/sequelize.git',
+13 verbose parsed url   path: 'sequelize@git://github.com/sequelize/sequelize.git',
+13 verbose parsed url   href: 'sequelize@git://github.com/sequelize/sequelize.git' }
+14 silly cache add name="sequelize" spec="git://github.com/sequelize/sequelize.git" args=["sequelize","git://github.com/sequelize/sequelize.git"]
+15 verbose parsed url { protocol: 'git:',
+15 verbose parsed url   slashes: true,
+15 verbose parsed url   host: 'github.com',
+15 verbose parsed url   hostname: 'github.com',
+15 verbose parsed url   href: 'git://github.com/sequelize/sequelize.git',
+15 verbose parsed url   pathname: '/sequelize/sequelize.git',
+15 verbose parsed url   path: '/sequelize/sequelize.git' }
+16 silly lockFile 36026e3d-thub-com-sequelize-sequelize-git git://github.com/sequelize/sequelize.git
+17 verbose lock git://github.com/sequelize/sequelize.git /var/root/.npm/36026e3d-thub-com-sequelize-sequelize-git.lock
+18 verbose addRemoteGit [ 'git://github.com/sequelize/sequelize.git', 'master' ]
+19 silly exec git "clone" "git://github.com/sequelize/sequelize.git" "/var/root/tmp/npm-1481/1369074545114-0.6747500626370311"
+20 silly git,clone,git://github.com/sequelize/sequelize.git,/var/root/tmp/npm-1481/1369074545114-0.6747500626370311, spawning
+21 error git clone git://github.com/sequelize/sequelize.git Cloning into '/var/root/tmp/npm-1481/1369074545114-0.6747500626370311'...
+21 error git clone git://github.com/sequelize/sequelize.git
+21 error git clone git://github.com/sequelize/sequelize.git fatal: unable to connect to github.com:
+21 error git clone git://github.com/sequelize/sequelize.git github.com[0: 204.232.175.90]: errno=Operation timed out
+22 silly lockFile 36026e3d-thub-com-sequelize-sequelize-git git://github.com/sequelize/sequelize.git
+23 error Error: `git "clone" "git://github.com/sequelize/sequelize.git" "/var/root/tmp/npm-1481/1369074545114-0.6747500626370311"` failed with 128
+23 error     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/exec.js:56:20)
+23 error     at ChildProcess.EventEmitter.emit (events.js:99:17)
+23 error     at Process._handle.onexit (child_process.js:678:10)
+24 error If you need help, you may report this log at:
+24 error     <http://github.com/isaacs/npm/issues>
+24 error or email it to:
+24 error     <npm-@googlegroups.com>
+25 error System Darwin 12.4.0
+26 error command "node" "/usr/local/bin/npm" "install" "sequelize"
+27 error cwd /Users/leticiarodriguezdiez/blog
+28 error node -v v0.8.20
+29 error npm -v 1.1.71
+30 verbose exit [ 1, true ]
