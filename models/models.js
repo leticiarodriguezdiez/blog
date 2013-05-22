@@ -4,12 +4,16 @@
 var path = require('path');
 var Sequelize = require('sequelize');
 // Para usar SQLite:
-var sequelize = new Sequelize('db75njpp25e3ph', 'inmpvpdjzpxbgc', 'PrYHO9A1YTOIBYVywVE6hFlfvD',
-		{ dialect:"postgres",
-		 protocol:"postgres", 
-		 port:"5432", 
-		 host:"ec2-54-227-255-156.compute-1.amazonaws.com", 
-		 omitNull: true});
+var sequelize = new Sequelize( 
+		process.env.DATABASE_NAME, 
+		process.env.DATABASE_USER, 
+		process.env.DATABASE_PASSWORD,
+		{ dialect: process.env.DATABASE_DIALECT, 
+		  protocol: process.env.DATABASE_PROTOCOL, 
+		  port: process.env.DATABASE_PORT, 
+		  host: process.env.DATABASE_HOST, 
+		  omitNull: true
+});
 // Importar la definicion de la clase Post desde post.js.
 // Y que este modulo exporta la clase Post:
 exports.Post = sequelize.import(path.join(__dirname,'post'));
