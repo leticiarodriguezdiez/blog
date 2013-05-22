@@ -1,7 +1,8 @@
-{	"username": "$DATABASE_USER", 
-	"password": "$DATABASE_PASSWORD", 
-	"database": "$DATABASE_NAME", 
-	"host": "$DATABASE_HOST", 
-	"dialect": "$DATABASE_DIALECT", 
-	"port": "$DATABASE_PORT", 
-	"protocol": "$DATABASE_PROTOCOL", "omitNull": true}
+  { 	"username":"inmpvpdjzpxbgc", 
+	"password":"PrYHO9A1YTOIBYVywVE6hFlfvD", 
+	"database":"db75njpp25e3ph", 	
+	"host":"ec2-54-227-255-156.compute-1.amazonaws.com", 
+	"dialect": "postgres", 
+	"port": "5432", 
+	"protocol": "postgres", 
+	"omitNull": true}
